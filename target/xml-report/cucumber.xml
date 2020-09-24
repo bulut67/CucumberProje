@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="33.196">
+    <testcase classname="Walmart Urun Arama" name="MFB04_kullanici ebayda arama yapar" time="21.457">
+        <system-out><![CDATA[Given kullanici walmart sayfasina gider.....................................passed
+And kullanici "chair" aramasi yapariz.......................................passed
+Then cikan sonucu control ederiz............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Walmart Urun Arama" name="MFB04_kullanici ebayda arama yapar 2" time="11.436">
+        <system-out><![CDATA[Given kullanici walmart sayfasina gider.....................................passed
+And kullanici "car seat" aramasi yapariz....................................passed
+Then cikan sonucu control ederiz............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

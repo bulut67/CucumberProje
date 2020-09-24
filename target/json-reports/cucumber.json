@@ -1,0 +1,181 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T20:20:16.283Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "MFB04_kullanici ebayda arama yapar",
+        "description": "",
+        "id": "walmart-urun-arama;mfb04-kullanici-ebayda-arama-yapar;urun-isimleri;2",
+        "after": [
+          {
+            "result": {
+              "duration": 638145500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17541766900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici walmart sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2653372800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"chair\" aramasi yapariz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chair\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_aramasi_yapariz(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615648000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "cikan sonucu control ederiz",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.cikan_sonucu_control_ederiz()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T20:20:37.754Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "MFB04_kullanici ebayda arama yapar",
+        "description": "",
+        "id": "walmart-urun-arama;mfb04-kullanici-ebayda-arama-yapar;urun-isimleri;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5339329600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3899671000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici walmart sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1400235500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"car seat\" aramasi yapariz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"car seat\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_aramasi_yapariz(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 795197600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "cikan sonucu control ederiz",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.cikan_sonucu_control_ederiz()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      }
+    ],
+    "name": "Walmart Urun Arama",
+    "description": "",
+    "id": "walmart-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/walmart.feature",
+    "tags": [
+      {
+        "name": "@walmart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
